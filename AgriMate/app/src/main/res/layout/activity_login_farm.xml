@@ -14,8 +14,9 @@
         android:background="@drawable/ectangle2"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:hint="Name"
         android:textColor="#000000"
+        android:textColorHint="#000000"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,7 +32,8 @@
         android:background="@drawable/ectangle2"
         android:ems="10"
         android:inputType="number"
-        android:text="Phone number"
+        android:hint="Phone number"
+        android:textColorHint="#000000"
         android:textColor="#000000"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -41,7 +43,7 @@
         android:layout_gravity="center_horizontal" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/otp1"
         android:layout_width="289dp"
         android:layout_height="56dp"
         android:background="@drawable/ath1"
@@ -67,6 +69,6 @@
         app:layout_constraintHorizontal_bias="0.135"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.038" />
+        app:layout_constraintVertical_bias="0.024" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
