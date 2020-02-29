@@ -16,6 +16,7 @@ public class AddNewField extends AppCompatActivity {
     Button btnSave;
     DatabaseReference reff;
     NewFarm NewM;
+    int a=1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +31,7 @@ public class AddNewField extends AppCompatActivity {
         Des=(EditText)findViewById(R.id.Des);
         btnSave=(Button)findViewById(R.id.btnSave);
         NewM= new NewFarm();
+
         reff= FirebaseDatabase.getInstance().getReference().child("NewFarm");
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,7 +50,8 @@ public class AddNewField extends AppCompatActivity {
                 NewM.setAdress(Adress.getText().toString().trim());
                 NewM.setChoice(Choice.getText().toString().trim());
 
-                reff.push().setValue(NewM);
+                reff.child("Member"+Integer.toString(a)).setValue(NewM);
+                a=a+1;
                 Toast.makeText(AddNewField.this,"WoW, Successful",Toast.LENGTH_LONG).show();
 
             }

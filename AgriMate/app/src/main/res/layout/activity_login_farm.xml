@@ -44,12 +44,12 @@
 
     <Button
         android:id="@+id/otp1"
-        android:layout_width="289dp"
-        android:layout_height="56dp"
+        android:layout_width="361dp"
+        android:layout_height="63dp"
         android:background="@drawable/ath1"
         android:text="@string/simple_button4"
         android:textColor="#FFFFFF"
-        android:textSize="40dp"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,15 +58,17 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="213dp"
-        android:layout_height="82dp"
+        android:layout_width="324dp"
+        android:layout_height="136dp"
         android:text="@string/simple_text2"
         android:textColor="#000"
-        android:textSize="50dp"
+        android:textAlignment="center"
+        android:textSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.192" />
+        app:layout_constraintVertical_bias="0.115"
+        android:layout_gravity="center_horizontal" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

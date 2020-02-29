@@ -2,8 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:background="#ffffff">
 
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/main"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -18,7 +23,7 @@
             android:background="@drawable/kill"
             android:layout_weight="1.0"
             android:gravity="center|bottom"
-            android:text="Button"
+            android:text="Add New Land"
             android:textSize="20dp"
             android:textColor="#000000"
             android:textStyle="bold"/>
@@ -30,7 +35,7 @@
             android:gravity="center|bottom"
             android:background="@drawable/kill"
             android:layout_weight="1.0"
-            android:text="Button"
+            android:text="My farms"
             android:textStyle="bold"
             android:textSize="20dp"
             android:textColor="#000000"/>
@@ -51,7 +56,7 @@
             android:textStyle="bold"
             android:textSize="20dp"
             android:textColor="#000000"
-            android:text="Button"
+            android:text="my investors"
             android:gravity="center|bottom"/>
 
         <Button
@@ -71,38 +76,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1.0"
-
-        android:orientation="horizontal" >
-
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/kill"
-            android:layout_weight="1.0"
-            android:textStyle="bold"
-            android:textSize="20dp"
-            android:textColor="#000000"
-            android:gravity="center|bottom"
-            android:text="Button" />
-
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center|bottom"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            android:textColor="#000000"
-            android:background="@drawable/kill"
-            android:layout_weight="1.0"
-            android:text="Button" />
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1.0"
         android:orientation="horizontal" >
 
         <Button
@@ -112,7 +85,7 @@
             android:background="@drawable/kill"
             android:layout_weight="1.0"
             android:textStyle="bold"
-            android:text="Button"
+            android:text="Help and support"
             android:textSize="20dp"
             android:textColor="#000000"
             android:gravity="center|bottom"/>
@@ -126,8 +99,12 @@
             android:textSize="20dp"
             android:textStyle="bold"
             android:textColor="#000000"
-            android:text="Button"
+            android:text="about app"
             android:gravity="center|bottom"/>
 
     </LinearLayout>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:background="#ffffff"/>
 </LinearLayout>
