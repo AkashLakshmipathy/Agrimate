@@ -25,6 +25,7 @@
         <activity android:name="com.hello.agrimate.FarmSiLo"/>
         <activity android:name="com.hello.agrimate.OtpPage"/>
         <activity android:name="com.hello.agrimate.AddNewField"/>
+        <activity android:name="com.hello.agrimate.Screen_farm_main"/>
     </application>
 
 </manifest>
