@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">AgriMate</string>
-    <string name="textview">TextView</string>
     <string name="simple_text">I am ?:</string>
     <string name="simple_button">INVESTOR</string>
     <string name="simple_button2">FARMER</string>
@@ -16,6 +15,6 @@
     <string name="simple_text5">I am ?:</string>
     <string name="simple_button9">CORPORATE</string>
     <string name="simple_button10">INDIVIDUAL</string>
-    <string name=""
+    <string name="simple_text6">Enter OTP</string>
 
 </resources>
