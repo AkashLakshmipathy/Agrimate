@@ -14,7 +14,11 @@
         android:background="@drawable/ectangle2"
         android:ems="10"
         android:inputType="textPersonName"
+<<<<<<< Updated upstream
         android:text="Name"
+=======
+        android:hint="@string/simple_text3"
+>>>>>>> Stashed changes
         android:textColor="#000000"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -31,7 +35,12 @@
         android:background="@drawable/ectangle2"
         android:ems="10"
         android:inputType="number"
+<<<<<<< Updated upstream
         android:text="Phone number"
+=======
+        android:hint="@string/simple_text4"
+        android:textColorHint="#000000"
+>>>>>>> Stashed changes
         android:textColor="#000000"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -45,7 +54,7 @@
         android:layout_width="289dp"
         android:layout_height="56dp"
         android:background="@drawable/ath1"
-        android:text="Send OTP"
+        android:text="@string/simple_button4"
         android:textColor="#FFFFFF"
         android:textSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -57,9 +66,15 @@
 
     <TextView
         android:id="@+id/textView2"
+<<<<<<< Updated upstream
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign Up"
+=======
+        android:layout_width="213dp"
+        android:layout_height="82dp"
+        android:text="@string/simple_text2"
+>>>>>>> Stashed changes
         android:textColor="#000"
         android:textSize="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
