@@ -24,6 +24,7 @@
         <activity android:name=".InvSiLo"/>
         <activity android:name=".FarmSiLo"/>
         <activity android:name=".OtpPage"/>
+        <activity android:name=".AddNewField"/>
     </application>
 
 </manifest>
