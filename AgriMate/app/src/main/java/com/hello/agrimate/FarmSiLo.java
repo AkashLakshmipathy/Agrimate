@@ -1,4 +1,4 @@
-package com.example.agrimate;
+package com.hello.agrimate;
 
 import android.os.Bundle;
 
