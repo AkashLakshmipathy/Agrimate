@@ -28,13 +28,16 @@
         android:background="@drawable/ectangle2"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Enter OTP"
+        android:hint="Enter OTP"
         android:textSize="35dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.381" />
+        app:layout_constraintVertical_bias="0.381"
+        android:layout_gravity="center_horizontal" />
 </androidx.constraintlayout.widget.ConstraintLayout>
