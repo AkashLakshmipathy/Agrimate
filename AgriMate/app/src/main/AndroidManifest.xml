@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.agrimate">
+    package="com.hello.agrimate">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <application
@@ -10,21 +10,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.hello.agrimate.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".choose"/>
-        <activity android:name=".InvesterFarm"/>
-        <activity android:name=".LoginInvestor"/>
-        <activity android:name=".LoginFarm"/>
-        <activity android:name=".InvSiLo"/>
-        <activity android:name=".FarmSiLo"/>
-        <activity android:name=".OtpPage"/>
-        <activity android:name=".AddNewField"/>
+        <activity android:name="com.hello.agrimate.choose"/>
+        <activity android:name="com.hello.agrimate.InvesterFarm"/>
+        <activity android:name="com.hello.agrimate.LoginInvestor"/>
+        <activity android:name="com.hello.agrimate.LoginFarm"/>
+        <activity android:name="com.hello.agrimate.InvSiLo"/>
+        <activity android:name="com.hello.agrimate.FarmSiLo"/>
+        <activity android:name="com.hello.agrimate.OtpPage"/>
+        <activity android:name="com.hello.agrimate.AddNewField"/>
     </application>
 
 </manifest>
