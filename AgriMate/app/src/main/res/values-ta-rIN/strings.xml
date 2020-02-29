@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AgriMate</string>
+    <string name="simple_text">நான் ?:</string>
+    <string name="simple_button">" முதலீட்டாளர்"</string>
+    <string name="simple_button2">" உழவர்"</string>
+    <string name="simple_button3">" உள்நுழைய"</string>
+    <string name="simple_text2">" பதிவுபெறுக"</string>
+    <string name="simple_text3">பெயர்</string>
+    <string name="simple_text4">" தொலைபேசி எண்"</string>
+    <string name="simple_button4">OTP ஐ அனுப்பவும்</string>
+    <string name="simple_button5">" உள்நுழைய"</string>
+    <string name="simple_button6">" பதிவுபெறுக"</string>
+    <string name="simple_text5">" பதிவுபெறுக"</string>
+    <string name="simple_button7">" பதிவுபெறுக"</string>
+    <string name="simple_button8">" உள்நுழைய"</string>
+    <string name="simple_button9">பெருநிறுவன</string>
+    <string name="simple_button10">தனிப்பட்ட</string>
+</resources>
