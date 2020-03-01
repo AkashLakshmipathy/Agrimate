@@ -53,4 +53,8 @@
     <string name="simple_text31">Crop Type</string>
     <string name="simple_text32">Per Stock Value</string>
     <string name="simple_text33">Expected Return</string>
+    <string name="simple_text34">Name</string>
+    <string name="simple_text35">DOB</string>
+    <string name="simple_text36">Aadhar Number</string>
+    <string name="simple_text37">Pan Card</string>
 </resources>

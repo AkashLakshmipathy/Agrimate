@@ -54,4 +54,8 @@
     <string name="simple_text31">பயிர் வகை</string>
     <string name="simple_text32">பங்கு மதிப்புக்கு</string>
     <string name="simple_text33">எதிர்பார்த்த வருவாய்</string>
+    <string name="simple_text35">பிறந்த தேதி</string>
+    <string name="simple_text34">பெயர்</string>
+    <string name="simple_text36">ஆதார் எண்</string>
+    <string name="simple_text37">பான் கார்ட்</string>
 </resources>
