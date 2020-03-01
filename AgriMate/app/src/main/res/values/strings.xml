@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">AgriMate</string>
-    <string name="simple_text">I am ?:</string>
+    <string name="simple_text">I am</string>
     <string name="simple_button">INVESTOR</string>
     <string name="simple_button2">FARMER</string>
     <string name="simple_button3">LOGIN</string>
@@ -12,7 +12,7 @@
     <string name="simple_button6">SIGN UP</string>
     <string name="simple_button7">Sign Up</string>
     <string name="simple_button8">LOGIN</string>
-    <string name="simple_text5">I am ?:</string>
+    <string name="simple_text5">I am</string>
     <string name="simple_button9">CORPORATE</string>
     <string name="simple_button10">INDIVIDUAL</string>
     <string name="simple_text6">Enter OTP</string>
