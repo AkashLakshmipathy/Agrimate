@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class InvesterMain extends AppCompatActivity {
+    private long backPressedTime;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +55,53 @@ public class InvesterMain extends AppCompatActivity {
             }
         });
 
+
+        Button buttonFive = findViewById(R.id.ProfInv);
+        buttonFive.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                System.out.println("Button Clicked");
+
+                Intent activity2Intent = new Intent(getApplicationContext(), InvestorProfile.class);
+                startActivity(activity2Intent);
+            }
+        });
+        Button buttonSix = findViewById(R.id.trending);
+        buttonSix.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                System.out.println("Button Clicked");
+
+                Intent activity2Intent = new Intent(getApplicationContext(), InvestorTrending.class);
+                startActivity(activity2Intent);
+            }
+        });
+        Button buttonSeven = findViewById(R.id.nStocks);
+        buttonSeven.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                System.out.println("Button Clicked");
+
+                Intent activity2Intent = new Intent(getApplicationContext(), NewStocks.class);
+                startActivity(activity2Intent);
+            }
+        });
+
+        Button buttonEight = findViewById(R.id.hRated);
+        buttonEight.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                System.out.println("Button Clicked");
+
+                Intent activity2Intent = new Intent(getApplicationContext(), HighRated.class);
+                startActivity(activity2Intent);
+            }
+        });
+
+
+
+    }
+    public void onBackPressed(){
+        Intent a = new Intent(Intent.ACTION_MAIN);
+        a.addCategory(Intent.CATEGORY_HOME);
+        a.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(a);
 
     }
 
