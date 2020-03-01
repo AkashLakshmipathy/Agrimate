@@ -60,4 +60,15 @@
     <string name="simple_text38">Profit Earned = $800 </string>
     <string name="simple_button21">My Stocks</string>
     <string name="simple_button22">Stock History</string>
+    <string name="simple_text39">Farmers name</string>
+    <string name="simple_text40">Location</string>
+    <string name="simple_text41">Per Stock Value</string>
+    <string name="simple_text42">Stocks Invested</string>
+    <string name="simple_text43">Earned</string>
+    <string name="simple_text44">From</string>
+    <string name="simple_text45">To</string>
+    <string name="simple_text46">Farmers Name</string>
+    <string name="simple_button23">Buy More</string>
+    <string name="simple_button_24">Report</string>
+
 </resources>
