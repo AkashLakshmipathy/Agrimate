@@ -54,4 +54,21 @@
     <string name="simple_text31">பயிர் வகை</string>
     <string name="simple_text32">பங்கு மதிப்புக்கு</string>
     <string name="simple_text33">எதிர்பார்த்த வருவாய்</string>
+    <string name="simple_text35">பிறந்த தேதி</string>
+    <string name="simple_text34">பெயர்</string>
+    <string name="simple_text36">ஆதார் எண்</string>
+    <string name="simple_text37">பான் கார்ட்</string>
+    <string name="simple_text38">சம்பாதித்த லாபம் = $ 800</string>
+    <string name="simple_button22">பங்கு வரலாறு</string>
+    <string name="simple_button21">எனது பங்குகள்</string>
+    <string name="simple_text39">விவசாயிகள் பெயர்</string>
+    <string name="simple_text40">இருப்பிடம்</string>
+    <string name="simple_text41">பங்கு மதிப்புக்கு</string>
+    <string name="simple_text42">பங்குகள் முதலீடு செய்யப்பட்டன</string>
+    <string name="simple_text43">ஈட்டிய</string>
+    <string name="simple_text44">இருந்து</string>
+    <string name="simple_text45">செய்ய</string>
+    <string name="simple_text46">விவசாயிகள் பெயர்</string>
+    <string name="simple_button23">மேலும் வாங்க</string>
+    <string name="simple_button_24">அறிக்கை</string>
 </resources>
