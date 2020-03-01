@@ -57,4 +57,7 @@
     <string name="simple_text35">DOB</string>
     <string name="simple_text36">Aadhar Number</string>
     <string name="simple_text37">Pan Card</string>
+    <string name="simple_text38">Profit Earned = $800 </string>
+    <string name="simple_button21">My Stocks</string>
+    <string name="simple_button22">Stock History</string>
 </resources>
