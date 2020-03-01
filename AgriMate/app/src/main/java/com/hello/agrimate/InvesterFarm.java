@@ -27,7 +27,7 @@ public class InvesterFarm extends AppCompatActivity {
             public void onClick(View v) {
                 System.out.println("Button Clicked");
 
-                Intent activity2Intent = new Intent(getApplicationContext(), choose.class);
+                Intent activity2Intent = new Intent(getApplicationContext(), FarmSiLo.class);
                 startActivity(activity2Intent);
             }
         });

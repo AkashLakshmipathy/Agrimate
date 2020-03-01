@@ -16,7 +16,7 @@ public class OtpPage extends AppCompatActivity {
             public void onClick(View v) {
                 System.out.println("Button Clicked");
 
-                Intent activity2Intent = new Intent(getApplicationContext(), Screen_farm_main.class);
+                Intent activity2Intent = new Intent(getApplicationContext(), InvesterMain.class);
                 startActivity(activity2Intent);
             }
         });

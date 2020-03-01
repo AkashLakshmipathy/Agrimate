@@ -1,17 +1,18 @@
 package com.hello.agrimate;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import androidx.appcompat.app.AppCompatActivity;
+public class FarmerHomePage extends AppCompatActivity {
 
-public class Screen_farm_main extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_screen_farm);
-
+        setContentView(R.layout.activity_farmer_home_page);
         Button buttonThreeo = findViewById(R.id.profilebtn);
         buttonThreeo.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -21,6 +22,7 @@ public class Screen_farm_main extends AppCompatActivity {
                 startActivity(activity2Intent);
             }
         });
+
         Button buttonOne = findViewById(R.id.buttonreq);
         buttonOne.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -61,8 +63,9 @@ public class Screen_farm_main extends AppCompatActivity {
                 startActivity(activity2Intent);
             }
         });
-        Button buttonSix = findViewById(R.id.button6);
-        buttonSix.setOnClickListener(new View.OnClickListener() {
+
+        Button buttonF = findViewById(R.id.button4);
+        buttonF.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 System.out.println("Button Clicked");
 
@@ -70,8 +73,6 @@ public class Screen_farm_main extends AppCompatActivity {
                 startActivity(activity2Intent);
             }
         });
-
-
 
 
     }

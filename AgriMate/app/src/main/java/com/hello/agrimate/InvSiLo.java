@@ -27,7 +27,7 @@ public class InvSiLo extends AppCompatActivity {
             public void onClick(View v) {
                 System.out.println("Button Clicked");
 
-                Intent activity2Intent = new Intent(getApplicationContext(), LoginFarm.class);
+                Intent activity2Intent = new Intent(getApplicationContext(), MainInvLogin.class);
                 startActivity(activity2Intent);
             }
         });
