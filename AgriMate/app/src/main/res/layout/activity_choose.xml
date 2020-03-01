@@ -12,6 +12,7 @@
         android:layout_width="312dp"
         android:layout_height="60dp"
         android:background="@drawable/ath1"
+        android:fontFamily="@font/quicksand"
         android:text="@string/simple_button9"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,6 +25,7 @@
     <Button
         android:id="@+id/indi"
         android:layout_width="312dp"
+        android:fontFamily="@font/quicksand"
         android:layout_height="60dp"
         android:background="@drawable/ath1"
         android:text="@string/simple_button10"
@@ -37,6 +39,7 @@
 
     <TextView
         android:id="@+id/textView"
+        android:fontFamily="@font/quicksand"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/simple_text"
