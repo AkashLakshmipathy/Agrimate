@@ -3,6 +3,8 @@
     package="com.hello.agrimate">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,22 +12,36 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.hello.agrimate.MainActivity">
+        <activity android:name=".FarmerHomePage"></activity>
+        <activity android:name=".otpFarmers" />
+        <activity android:name=".SignupFarmers" />
+        <activity android:name=".LoginFarmers" />
+        <activity android:name=".MainInvLogin" />
+        <activity android:name=".HelpSupport" />
+        <activity android:name=".AboutApp" />
+        <activity android:name=".HistoryStock" />
+        <activity android:name=".FarmerProfile" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.hello.agrimate.choose"/>
-        <activity android:name="com.hello.agrimate.InvesterFarm"/>
-        <activity android:name="com.hello.agrimate.LoginInvestor"/>
-        <activity android:name="com.hello.agrimate.LoginFarm"/>
-        <activity android:name="com.hello.agrimate.InvSiLo"/>
-        <activity android:name="com.hello.agrimate.FarmSiLo"/>
-        <activity android:name="com.hello.agrimate.OtpPage"/>
-        <activity android:name="com.hello.agrimate.AddNewField"/>
-        <activity android:name="com.hello.agrimate.Screen_farm_main"/>
+        <activity android:name=".choose" />
+        <activity android:name=".InvesterFarm" />
+        <activity android:name=".LoginInvestor" />
+        <activity android:name=".LoginFarm" />
+        <activity android:name=".InvSiLo" />
+        <activity android:name=".FarmSiLo" />
+        <activity android:name=".OtpPage" />
+        <activity android:name=".AddNewField" />
+        <activity android:name=".Screen_farm_main" />
+        <activity android:name=".ReportPage" />
+        <activity android:name=".UpdateVerification" />
+        <activity android:name=".BuyerPage" />
+        <activity android:name=".DetailsPage" />
+        <activity android:name=".InvesterMain" />
     </application>
 
 </manifest>
