@@ -12,8 +12,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".Retrieve1"></activity>
+        <activity android:name=".fm3"></activity>
+        <activity android:name=".fm2" />
+        <activity android:name=".fm1" />
+        <activity android:name=".cp3" />
+        <activity android:name=".cp2" />
+        <activity android:name=".cp1" />
+        <activity android:name=".Retrieve1" />
         <activity android:name=".FarmerHomePage" />
         <activity android:name=".otpFarmers" />
         <activity android:name=".SignupFarmers" />
@@ -44,6 +49,9 @@
         <activity android:name=".BuyerPage" />
         <activity android:name=".DetailsPage" />
         <activity android:name=".InvesterMain" />
+        <activity android:name=".NewStocks" />
+        <activity android:name=".InvestorTrending" />
+        <activity android:name=".HighRated" />
     </application>
 
 </manifest>
