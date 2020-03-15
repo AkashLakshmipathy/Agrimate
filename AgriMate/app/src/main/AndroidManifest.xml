@@ -12,9 +12,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".fm3"></activity>
+        <activity android:name=".InvProfile"></activity>
+        <activity android:name=".fm3" />
         <activity android:name=".fm2" />
         <activity android:name=".fm1" />
+        <activity android:name=".StockHistory" />
         <activity android:name=".cp3" />
         <activity android:name=".cp2" />
         <activity android:name=".cp1" />
@@ -28,6 +30,7 @@
         <activity android:name=".AboutApp" />
         <activity android:name=".HistoryStock" />
         <activity android:name=".FarmerProfile" />
+        <activity android:name=".InvestorStocks" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

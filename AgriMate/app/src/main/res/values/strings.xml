@@ -70,5 +70,27 @@
     <string name="simple_text46">Farmers Name</string>
     <string name="simple_button23">Buy More</string>
     <string name="simple_button_24">Report</string>
-
+    <string name="simple_text47">Farmers Name</string>
+    <string name="simple_text48">X2 Times</string>
+    <string name="simple_button24">Profile</string>
+    <string name="simple_button25">Investors</string>
+    <string name="simple_button26">My Stocks</string>
+    <string name="simple_button27">Stock History</string>
+    <string name="simple_button28">Update Verification</string>
+    <string name="simple_button29">Help and Support</string>
+    <string name="simple_button30">About Us</string>
+    <string name="simple_text49">Test User</string>
+    <string name="simple_text50">KCC ID: 123456</string>
+    <string name="simple_text51">Aadhar ID: 1234 5678 9012 3456</string>
+    <string name="simple_button31">Call us</string>
+    <string name="simple_text52">Sorry! No Stocks Available yet!</string>
+    <string name="simple_text53">Name</string>
+    <string name="simple_text54">Phone Number</string>
+    <string name="simple_text55">Aadhar number</string>
+    <string name="simple_text56">Land Description</string>
+    <string name="simple_text57">Land Available in Acres</string>
+    <string name="simple_text58">Amount required in Rs.</string>
+    <string name="simple_text59">What Plant do you want to plant</string>
+    <string name="simple_text60">Brief Description</string>
+    <string name="simple_button32">Finish</string>
 </resources>
