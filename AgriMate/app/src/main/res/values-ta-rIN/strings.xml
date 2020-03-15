@@ -71,4 +71,27 @@
     <string name="simple_text46">விவசாயிகள் பெயர்</string>
     <string name="simple_button23">மேலும் வாங்க</string>
     <string name="simple_button_24">அறிக்கை</string>
+    <string name="simple_text47">விவசாயிகள் பெயர்</string>
+    <string name="simple_text48">இரட்டை முறை</string>
+    <string name="simple_button24">பதிவு செய்தது</string>
+    <string name="simple_button25">முதலீட்டாளர்கள்</string>
+    <string name="simple_button26">எனது பங்குகள்</string>
+    <string name="simple_button27">பங்கு வரலாறு</string>
+    <string name="simple_button28">புதுப்பிப்பு சரிபார்ப்பு</string>
+    <string name="simple_button29">உதவி மற்றும் ஆதரவு</string>
+    <string name="simple_button30">எங்களை பற்றி</string>
+    <string name="simple_text49">சோதனை பயனர்</string>
+    <string name="simple_text50">கே.சி.சி ஐடி: 123456</string>
+    <string name="simple_button31">எங்களை அழைக்கவும்</string>
+    <string name="simple_text51">ஆதார் ஐடி: 1234 5678 9012 3456</string>
+    <string name="simple_text52">மன்னிக்கவும்! பங்குகள் எதுவும் இன்னும் கிடைக்கவில்லை!</string>
+    <string name="simple_text53">பெயர்</string>
+    <string name="simple_text54">" தொலைபேசி எண்"</string>
+    <string name="simple_text55">ஆதார் எண்</string>
+    <string name="simple_text56">நில விளக்கம்</string>
+    <string name="simple_text57">ஏக்கரில் நிலம் கிடைக்கிறது</string>
+    <string name="simple_text58">ரஸில் ஆட்சேர்ப்பு செய்யப்பட்ட தொகை.</string>
+    <string name="simple_text59">நீங்கள் என்ன ஆலை நடவு செய்ய விரும்புகிறீர்கள்</string>
+    <string name="simple_text60">சுருக்கமான விளக்கம்</string>
+    <string name="simple_button32">பினிஷ்</string>
 </resources>

@@ -56,15 +56,6 @@ public class InvesterMain extends AppCompatActivity {
         });
 
 
-        Button buttonFive = findViewById(R.id.ProfInv);
-        buttonFive.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                System.out.println("Button Clicked");
-
-                Intent activity2Intent = new Intent(getApplicationContext(), InvestorProfile.class);
-                startActivity(activity2Intent);
-            }
-        });
         Button buttonSix = findViewById(R.id.trending);
         buttonSix.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -90,6 +81,16 @@ public class InvesterMain extends AppCompatActivity {
                 System.out.println("Button Clicked");
 
                 Intent activity2Intent = new Intent(getApplicationContext(), HighRated.class);
+                startActivity(activity2Intent);
+            }
+        });
+
+        Button buttonTen = findViewById(R.id.button10);
+        buttonTen.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                System.out.println("Button Clicked");
+
+                Intent activity2Intent = new Intent(getApplicationContext(), InvProfile.class);
                 startActivity(activity2Intent);
             }
         });

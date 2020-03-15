@@ -26,7 +26,7 @@
             android:layout_weight="1.0"
             android:background="@drawable/prof"
             android:gravity="center|bottom"
-            android:text="Profile"
+            android:text="@string/simple_button24"
             android:textColor="#000000"
             android:textSize="15dp"
             android:textStyle="bold" />
@@ -46,7 +46,7 @@
             android:layout_weight="1.0"
             android:gravity="center|bottom"
             android:background="@drawable/reqsto"
-            android:text="Request Money"
+            android:text="@string/simple_button25"
             android:textSize="20dp"
             android:fontFamily="@font/quicksand"
             android:textColor="#000000"
@@ -60,7 +60,7 @@
             android:gravity="center|bottom"
             android:background="@drawable/mysto"
             android:layout_weight="1.0"
-            android:text="My Stocks"
+            android:text="@string/simple_button26"
             android:textStyle="bold"
             android:textSize="20dp"
             android:textColor="#000000"/>
@@ -82,7 +82,7 @@
             android:background="@drawable/stohis"
             android:textSize="20dp"
             android:textColor="#000000"
-            android:text="Stock History"
+            android:text="@string/simple_button27"
             android:gravity="center|bottom"/>
 
         <Button
@@ -95,7 +95,7 @@
             android:fontFamily="@font/quicksand"
             android:textColor="#000000"
             android:layout_weight="1.0"
-            android:text="Update Verification"
+            android:text="@string/simple_button28"
             android:gravity="center|bottom"/>
 
     </LinearLayout>
@@ -113,7 +113,7 @@
             android:layout_weight="1.0"
             android:textStyle="bold"
             android:fontFamily="@font/quicksand"
-            android:text="Help and support"
+            android:text="@string/simple_button29"
             android:textSize="20dp"
             android:textColor="#000000"
             android:gravity="center|bottom"/>
@@ -128,7 +128,7 @@
             android:fontFamily="@font/quicksand"
             android:background="@drawable/helpas"
             android:textColor="#000000"
-            android:text="about app"
+            android:text="@string/simple_button30"
             android:gravity="center|bottom"/>
 
     </LinearLayout>
